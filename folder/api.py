@@ -1,6 +1,5 @@
 from pathlib import Path
 from fastapi.staticfiles import StaticFiles
-import data.db_session as db_session
 from fastapi import FastAPI
 import uvicorn
 from views import home
